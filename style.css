@@ -1,0 +1,20 @@
+/* ::-webkit-resizer {
+  display: none;
+} */
+:root {
+    --changeWidth: 160px;
+  }
+  body {
+    background: linear-gradient(pink, orange);
+  }
+  textarea {
+    font-size: 30px;
+    resize: none;
+    /*   display:inline-block; */
+    width: var(--changeWidth);
+  }
+  textarea:hover {
+    color: blue;
+    background-color: orange;
+  }
+  
