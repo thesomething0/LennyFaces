@@ -1,29 +1,19 @@
 <html>
-
+<head>
+  <meta charset="utf-8" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="">
+  <title>Lenny Faces for U</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
 <body>
-
-  <head>
-    <meta charset="utf-8" />
-    <meta name="keywords" content="" />
-    <meta name="description" content="">
-    <title>Lenny Faces for U</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js"></script>
-
-  </head>
-
   <h1>Welcome to (yet another) Lenny Face picker</h1>
-  
-    <label for="txt-input">Enter number of Random lennyfaces to generate</label>
-    <input max-value=499 type="number" id="len-input" placeholder="5" value=5></input>
-    <input type="submit" onclick="chngeVar()"></input>
-    
-    <input type="button" id="txt-input" onclick="clearButton()" value="clear"></input>
-    
-    <hr>
-    <div id="mainDiv">
-        </div>
-
+  <label for="txt-input">Enter number of Random lennyfaces to generate</label>
+  <input max-value=499 type="number" id="len-input" placeholder="5" value=5></input>
+  <input type="submit" onclick="makeButtons()"></input>
+  <input type="button" id="txt-input" onclick="clearButtons()" value="clear"></input>
+  <hr>
+  <div id="mainDiv"></div>
 </body>
-
 </html>
